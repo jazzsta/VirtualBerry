@@ -7,6 +7,7 @@ import pandas
 
 # [option] edit params control as needed
 data_path = input_data()
-data = pandas.read_csv(data_path, sep='\t')
+data = pandas.read_csv(data_path, sep='\t', decimal='.')
 #
 res = virtual_berry(data, params, controls)
+pass
